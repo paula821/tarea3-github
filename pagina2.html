@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- Estilos en CSS -->
+<style>
+.slider{
+background: url("images/bg-1.jpg");
+height: 100vh;
+background-size: cover;
+background-position: center;
+}
+
+#carouselExampleIndicators {
+    height: 100vh;
+    width: 100%;    
+}
+
+.carousel-indicators {
+    margin-bottom: 8px;
+}
+
+.carousel-indicators>li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+    background-color: #000000;
+}
+
+.carousel-item {
+   height: 100%;
+}
+
+.carousel-item img {
+   position: absolute;
+   height: 100%;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%)
+}
+</style>
+
+  </head>
+  <body>
+  
+  <!-- inicio carousel -->  
+   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active" style="height: 100vh">
+      <img class="d-block img-fluid " src="images/humero2.jpg" alt="" class="d-block w-100">
+    </div>
+    <div class="carousel-item" style="height: 100vh">
+      <img class="d-block img-fluid" src="images/humero.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item" style="height: 100vh">
+      <img class="d-block img-fluid" src="images/fondo3.png" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<!--  -->
+  
+         
+    <!-- menu de navegacion -->
+  <nav class="navbar navbar-toggleable-md  fixed-top navbar-light bg-faded navbar-inverse bg-inverse navbar-light bg-faded">
+  <a class="navbar-brand" href="pagina2.html">
+    <img src="images/logo_2.png" width="30" height="30" alt="">
+  </a>
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#">El Humero</a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto text-center">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Nosotros</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Galeria</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link " href="#">Reservas</a>
+      </li>
+       <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Nuestro Menu
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Hamburguesas</a>
+          <a class="dropdown-item" href="#">Papas especiales</a>
+          <a class="dropdown-item" href="#">Carnes a la parrilla</a>
+          <a class="dropdown-item" href="#">Sanduches y Choripan</a>
+          <a class="dropdown-item" href="#">Reposteria</a>
+        </div>
+      </li>
+       <div class="dflex flex-row justify-content-around">
+          <a href="#" class="btn btn-primary">F</a>
+          <a href="#" class="btn btn-success">I</a>
+       </div>
+    </ul>
+   
+  </div>
+</nav>
+   <!-- Fin de la navegacion -->
+   
+      
+    <!--inicio card -->
+    
+    <section class="container mt-3 pt-5 pb-3">
+ <div class="card-deck">
+  <div class="card">
+    <img class="card-img-top img-fluid" style="width:600px;height:430px" src="images/postres.png" alt="Card image cap"  >
+    <div class="card-block">
+      <h4 class="card-title">Nuestros Postres</h4>
+      <p class="card-text">Nuestro aliado "canela sabor artesanal" ofrece a nuestros clientes del Humero, unos delicioso postres para que acompañen las comidas, o bien para celebrar fechas especiales</p>
+      <a class="btn btn-primary" href="#" role="button">Canela</a>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top img-fluid" style="width:600px;height:430px" src="images/burguerfest.png" alt="Card image cap">
+    <div class="card-block">
+      <h4 class="card-title">Burguer N'Fest</h4>
+      <p class="card-text">El Humero participa en el festival @burgernbeerfest, para que voten por la mejor hamburguesa del oriente antioqueño,!NO SE LO PUEDEN PERDER! Pendiente nueva fecha del Festival</p>
+      <a class="btn btn-primary" href="#" role="button">Link</a>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top img-fluid" style="width:600px;height:430px" src="images/celebra.png" alt="Card image cap">
+    <div class="card-block">
+      <h4 class="card-title">Celebra con nosotros</h4>
+      <p class="card-text">Ven y celebra con nosotros tus momentos especiales 💝... Reservas 3053004357</p>
+      <a class="btn btn-primary" href="#" role="button">Reservas</a>
+    </div>
+  </div>
+</div>
+ </section>
+
+<!-- fin cards -->
+
+<!-- Inicio formulario -->
+
+<section class="container">
+<h3 class="text-uppercase text-center">Reserva con Nosotros</h3>
+<p class="p-2 text-center">Celebra las ocaciones especiales, para esto debes diligenciar tu nombre, correo electronico y tipo de celebracion</p>
+
+ <div class="row">
+ <div class="col-6">
+ <form action="">
+   <div class="form-group row">
+    <label for="" class="col-2 col-form-label">Nombre Contacto:</label>
+    <input type="text" placeholder="Escribe tu nombre aqui" class="form-control col-10">
+   </div>
+   <div class="form-group row">
+    <label for="" class="col-2 col-form-label">Email:</label>
+    <input type="email" placeholder="Escribe tu correo aqui" class="form-control col-10">
+   </div>
+   <div class="form-group row">
+    <label for="" class="col-2 col-form-label">Evento:</label>
+    <input type="text" placeholder="Cumpleaños, aniversario, baby shower aqui" class="form-control col-10">
+   </div>
+   <div class="form-group">
+   <button class="btn btn-danger">Enviar</button>
+   </div>
+ </form>
+ </div>
+ </div>
+
+</section>
+<!-- Inicio formulario -->
+
+<!-- Inicio Jumbotron -->
+<div class="jumbotron mt-1 bg-inverse text-white">
+ <div class="container">
+  <h1 class="display-3">EL mejor asado del oriente!!</h1>
+  <p class="lead">Especializado en asados.... ven y visitanos</p>
+  <hr class="my-3">
+  <div class="d-flex justify-content-between align-items-center">
+   <p>Disfruta de variedad de platos y carnes</p>
+   <p class="lead">
+    <a class="btn btn-primary btn-lg" href="#" role="button">Como llegar</a>
+   </p>
+  </div>
+ </div>
+</div>
+<!-- Fin Jumbotron -->
+
+
+   
+   
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
